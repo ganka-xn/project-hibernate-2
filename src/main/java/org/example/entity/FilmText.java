@@ -12,7 +12,6 @@ public class FilmText {
     @Column(name = "film_id", nullable = false)
     private Short filmId;
 
-    //todo: @Id
     @OneToOne
     @JoinColumn(name = "film_id")
     private Film film;
